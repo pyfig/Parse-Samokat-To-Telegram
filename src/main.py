@@ -50,3 +50,4 @@ class Parser:
 if __name__ == "__main__":
     parser = Parser()
     print(parser.get_data())
+    print("Link to the page: ", parser.url)
